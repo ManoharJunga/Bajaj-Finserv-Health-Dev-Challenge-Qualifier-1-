@@ -16,6 +16,7 @@ const FilterDropdown = ({ selectedOptions, setSelectedOptions }) => {
                 return [...prev, option];
             }
         });
+        setShowOptions(false);  // Close the dropdown after selection
     };
 
     const removeOption = (option) => {
