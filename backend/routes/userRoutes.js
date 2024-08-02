@@ -3,7 +3,10 @@ import { createUser, getOperationCode } from '../controllers/userController.js';
 
 const router = express.Router();
 
-router.post('/bfhl', createUser);
-router.get('/bfhl', getOperationCode);
+// POST request to create a user
+router.post('/', createUser);
+
+// GET request to retrieve operation code
+router.get('/', getOperationCode);
 
 export default router;
