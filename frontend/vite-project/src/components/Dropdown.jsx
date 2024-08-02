@@ -12,7 +12,7 @@ const Dropdown = ({ selectedOptions, setSelectedOptions }) => {
 
     return (
         <div className="form-group">
-            <label htmlFor="filter">Select Options:</label>
+            <label htmlFor="filter">Select Filters:</label>
             <select
                 id="filter"
                 multiple
