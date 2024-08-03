@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3001/bfhl';
+const API_URL = 'https://backend-bajaj-finserv.onrender.com/bfhl';
 
 export const submitData = async (data) => {
     try {
